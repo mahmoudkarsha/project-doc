@@ -1,0 +1,5 @@
+Inventarnummer;Kategorie;Hersteller;Modell;Seriennummer;Zugewiesen an;Standort;Kaufdatum;Garantieende
+INV-0001;Notebook;Dell;Latitude 5440;SN123456;max.mustermann;HQ;2023-02-14;2026-02-14
+INV-0002;Monitor;Dell;U2720Q;SN223344;;HQ;2022-08-01;2025-08-01
+INV-0003;Drucker;HP;LaserJet 400;SN556677;support.team;Niederlassung;2021-11-30;2024-11-30
+
