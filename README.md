@@ -1,8 +1,8 @@
-IHK-Abschlussprojekt – Projektdokumentation
+# IHK-Abschlussprojekt – Projektdokumentation
 
-Projekt: „Auswahl, Aufbau und Implementation einer IT-Asset- und Inventarmanagement-Software für die Firma X“
+### Projekt: „Auswahl, Aufbau und Implementation einer IT-Asset- und Inventarmanagement-Software für die Firma X“
 
-Autor: Vorname Nachname
+### Autor: Vorname Nachname
 
 Ausbildungsberuf: Fachinformatiker/in Systemintegration
 
