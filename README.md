@@ -273,14 +273,14 @@ Quelle: Eigene Darstellung
 
 ```mermaid
 graph LR
-  A[Clients/Mitarbeitende] -- TLS/HTTPS --> B[Nginx Reverse Proxy]
-  B --> C[PHP-FPM (Snipe-IT Webapp)]
+  A[Clients/Mitarbeitende] -->|TLS/HTTPS| B[Nginx Reverse Proxy]
+  B --> C[PHP-FPM Snipe-IT Webapp]
   C --> D[(MariaDB)]
   C --> E[(Redis/Cache optional)]
-  C --> F[SMTP (Mail-Server)]
+  C --> F[SMTP Mail-Server]
   C --> G[AD/LDAP]
-  B -. Monitoring .-> H[Monitoring]
-  C -. Logs .-> I[Syslog/Elastic]
+  B -.->|Monitoring| H[Monitoring]
+  C -.->|Logs| I[Syslog/Elastic]
 ```
 
 5.2 Infrastrukturaufbau
